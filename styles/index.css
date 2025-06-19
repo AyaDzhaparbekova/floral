@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(240, 239, 237);
+  line-height: 1.5;
+  margin: 20px;
+}
+h3{
+  font-size: 0.90rem;
+  text-align: center;
+}
+.menu {
+  display: none;
+  background-color: #f2ecec;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  width: 200px;
+  padding: 1rem;
+}
+.menu a {
+  color: rgb(22, 21, 21);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.hamburger {
+  font-size: 2rem;
+  cursor: pointer;
+}
+#hamburger i {
+ font-size: ;
+}
+
+/* Показать меню, когда добавлен класс "open" */
+.menu.open {
+  display: block;
+}
