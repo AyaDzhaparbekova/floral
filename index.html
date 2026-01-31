@@ -1,59 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Flower online shopping and delivery</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-</head>
-<!--GOOGLE FONTS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
-    rel="stylesheet"
-  />
-  <!-- FONTAWESOME -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-  />
-  <link rel="stylesheet" href="styles/index.css" />
-  <link rel="stylesheet" href="./styles/media.css" />
-<body>
-  <h3>Получите скидку 15% при заказе от 2000 сом.</h3>
-  
-    <section class="logo">
-      <img src="logo.png" alt=""/>
 
-    </section>
-    <div class ="hamburger" id="hamburger"></div>
-    <i class="fas fa-bars"></i>
-    <nav class="menu" id="menu">
-    <ul class="nav-links">
-      <li><a href="#">Популярные</a></li>
-      <li><a href="#">День рождения</a></li>
-      <li><a href="#">События</a></li>
-      <li><a href="#">Особые случаи</a></li>
-      <li><a href="#">Праздники</a></li>
-      <li><a href="#">Доставка</a></li>
-    </ul>
-    </nav>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloomist</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="./script/index.js">
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+
+
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Bloomist</div>
+      <ul class="nav-links">
+        <li><a href="#home">Цветочный магазин</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#skills">Каталог</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+      <div class="socials">
+        <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="https://wa.me/" target="_blank" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="mailto:yourmail@gmail.com" aria-label="Email">
+  <i class="fa-solid fa-envelope"></i>
+</a>
+
+      </div>
+    </div>
+  </nav>
+
+  <header class="header" id="home">
+    <div class="header-content">
+      <h1>Bloomist</h1>
+      <p>Цветочный магазин</p>
+    </div>
+     <div class="order" id="order">
+       <h3>Заказать сейчас</h3>
+    </div>
+     
+  </header>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2>Bloomist</h2>
+      <p> это место, где создаются изысканные цветочные композиции с индивидуальным и креативным подходом для любого повода. Наш обновлённый стиль основан на элегантности и вдохновении, а наша миссия - наполнять красотой самые важные моменты жизни. Мы обслуживаем  с особым вниманием к деталям создаём каждый букет, вкладывая в него заботу и любовь.
+</p>
+    </div>
+  </section>
+
+  <section class="projects" id="projects-grid">
+  <div class="container flex projects-grid">
+     <h2>Коллекция</h2>
+    <div class="project-card">
+      <div id="galleryModal" class="gallery hidden">
+  <span class="close">&times;</span>
+  <img id="galleryImage" src="" alt="gallery">
+</div>
+     
+      <p>Вазы</p>
+    </div>
+
+    <div class="project-card">
+      <h3></h3>
+      <p>Букеты</p>
+    </div>
+
+    <div class="project-card">
+      <h3></h3>
+      <p>День Святого Валентина</p>
+    </div>
+    <div class="project-card">
+      <h3></h3>
+      <p>День Матери</p>
+    </div>
+  </div>
+   
+  </div>
+</section>
+  <section class="skills" id="skills">
+  <div class="container">
+    <h2>Наши Услуги</h2>
+    <div class="skills-grid">
+      <div class="skills-card">Цветочные Композиции</div>
+      <div class="skills-card">Декорации</div>
+      <div class="skills-card">Оформление Торжеств</div>
+      <div class="skills-card">Фотозоны</div>
+    
+
+    </div>
+  </div>
+</section>
+<footer class="footer" id="contact">
   
-  <h1>Bloom Pro</h1>
-  <h2>Кому</h2>
-   <h2>Время доставки</h2>
-   <button>Купить сейчас</button>
-   <div class="sections-container">
-   <li>Home</li>
-   <li>Flowers</li>
-   <li>Bouquets</li>
-   <h1>Доставка цветов</h1>
-   <p>Отправить цветы легко всего за несколько шагов, когда вы выбираете из нашего обширного и впечатляющего ассортимента! Найдите изысканные композиции, букеты ко дню рождения и многое другое c доставкой в тот же день, заказывая цветы онлайн c Bloom Pro.</p>
-   </div>
-   <footer>
-    <h1>Контакты</h1>
-   </footer>
-    <script src="./script./index.js"></script>
-</body>
-</html> 
+
+  <div class="social-links">
+    <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="https://wa.me/" target="_blank" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="mailto:yourmail@gmail.com" aria-label="Email">
+  <i class="fa-solid fa-envelope"></i>
+</a>
+
+    
+    <p>© 2026 Bloomist</p>
+  </div>
+</footer>
